@@ -7,7 +7,7 @@ env/
 __pycache__/
 *.py[cod]
 
-# Environment variables
+# Environment variables / secrets
 .env
 .env.*
 
@@ -18,6 +18,9 @@ __pycache__/
 # OS
 .DS_Store
 
+# Logs
+*.log
+
 # Testing / coverage
 .pytest_cache/
 .coverage
@@ -25,3 +28,8 @@ htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
